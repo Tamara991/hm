@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Example</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>TestForm</legend>
+                <label for="name">Name:</label>
+                <input type="text" name="name">
+
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" />
+
+                <br><br>
+                <p>Genger</p>
+                <input type="radio" name="genger" id="male" value="male">
+                <label for="male">Male</label>
+                <input type="radio" name="genger" id="female" value="female">
+                <label for="female">Fimale</label>
+
+                <br><br>
+                <label for="email">Enter your email:</label>
+                <input type="email" name="email" id="email" placeholder="example@example.com">
+
+                <br><br>
+                <label for="avatar">Upload your image</label>
+                <input type="file" name="avatar" id="avatar">
+
+                <br><br>
+                <label for="date">Enter date</label>
+                <input type="date" name="date" id="date">
+
+                <br><br>
+                <label for="Continent">Continent</label>
+                <select name="Continent" id="Continent" multiple="multiple" size="1">
+                    <option disabled selected>Please select...</option>
+                    <option value="ex1">ex1</option>
+                    <option value="ex2">ex2</option>
+                    <option value="ex3">ex3</option>
+                    <option value="ex4">ex4</option>
+                    <option value="ex5">ex5</option>
+                </select>
+
+                <br><br>
+                <p>Meals</p>
+                <input type="checkbox" name="meals" id="breakfast" value="breakfast">
+                <label for="breakfast">Breakfast</label>
+                <br>
+                <input type="checkbox" name="meals" id="lunch" value="lunch">
+                <label for="lunch">Lunch</label>
+                <br>
+                <input type="checkbox" name="meals" id="dinner" value="dinner">
+                <label for="dinner">Dinner</label>
+
+                <br><br>
+                <label for="text">Remark</label>
+                <textarea name="text" id="text" cols="50" rows="5"></textarea>
+
+                <br><br>
+                <label for="color">Choose your color</label>
+                <input type="color" name="color" id="color">
+
+                <br><br>
+                <label for="range">Choose a value</label>
+                <input type="range" name="range" id="range">
+
+                <br><br>
+                <input type="submit" value="Send">
+                <input type="reset" value="Cancel">
+ 
+            </fieldset>
+        </form>
+    </body>
+</html>
